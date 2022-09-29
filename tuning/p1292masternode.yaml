@@ -1,0 +1,26 @@
+kind: Node
+apiVersion: v1
+metadata:
+  name: p1292-master.p1292.cecc.ihost.com
+  labels:
+    beta.kubernetes.io/os: linux
+    kubernetes.io/os: linux
+    scale: 'true'
+    node-role.kubernetes.io/worker: ''
+    node.openshift.io/os_id: rhcos
+    node-role.kubernetes.io/master: ''
+    kubernetes.io/hostname: p1292-master.p1292.cecc.ihost.com
+    beta.kubernetes.io/arch: ppc64le
+    scale.spectrum.ibm.com/designation: quorum
+    kubernetes.io/arch: ppc64le
+    SMT: '8'
+  annotations:
+    csi.volume.kubernetes.io/nodeid: '{"spectrumscale.csi.ibm.com":"p1292-master.p1292.cecc.ihost.com"}'
+    machineconfiguration.openshift.io/controlPlaneTopology: SingleReplica
+    machineconfiguration.openshift.io/currentConfig: rendered-master-bc3b42ee388dc227ffd8e1dba8473599
+    machineconfiguration.openshift.io/desiredConfig: rendered-master-bc3b42ee388dc227ffd8e1dba8473599
+    machineconfiguration.openshift.io/reason: ''
+    machineconfiguration.openshift.io/ssh: accessed
+    machineconfiguration.openshift.io/state: Done
+    volumes.kubernetes.io/controller-managed-attach-detach: 'true'
+spec: {}
