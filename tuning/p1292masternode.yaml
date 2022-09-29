@@ -13,7 +13,7 @@ metadata:
     beta.kubernetes.io/arch: ppc64le
     scale.spectrum.ibm.com/designation: quorum
     kubernetes.io/arch: ppc64le
-    SMT: '8'
+    SMT: '4'
   annotations:
     csi.volume.kubernetes.io/nodeid: '{"spectrumscale.csi.ibm.com":"p1292-master.p1292.cecc.ihost.com"}'
     machineconfiguration.openshift.io/controlPlaneTopology: SingleReplica
