@@ -3,7 +3,7 @@ kind: MachineConfig
 metadata:
   labels:
     machineconfiguration.openshift.io/role: master
-  name: 99-master-ibm
+  name: 99-master-powersmt
 spec:
   config:
     ignition:
