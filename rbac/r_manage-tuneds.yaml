@@ -1,0 +1,17 @@
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: manage-tuneds
+  namespace: openshift-cluster-node-tuning-operator
+rules:
+  - verbs:
+      - get
+      - watch
+      - list
+      - create
+      - update
+      - patch
+    apiGroups:
+      - tuned.openshift.io
+    resources:
+      - tuneds
