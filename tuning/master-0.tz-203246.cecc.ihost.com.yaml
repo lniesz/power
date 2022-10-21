@@ -14,9 +14,5 @@ metadata:
     SMT: '8'
   annotations:
     machineconfiguration.openshift.io/controlPlaneTopology: SingleReplica
-    machineconfiguration.openshift.io/currentConfig: rendered-master-c1839e53fb8bf6ad5f7f22be8e44c683
-    machineconfiguration.openshift.io/desiredConfig: rendered-master-c1839e53fb8bf6ad5f7f22be8e44c683
-    machineconfiguration.openshift.io/reason: ''
-    machineconfiguration.openshift.io/state: Done
     volumes.kubernetes.io/controller-managed-attach-detach: 'true'
 spec: {}
