@@ -11,7 +11,7 @@ metadata:
     node-role.kubernetes.io/master: ''
     node-role.kubernetes.io/worker: ''
     node.openshift.io/os_id: rhcos
-    SMT: '8'
+    SMT: '4'
   annotations:
     machineconfiguration.openshift.io/controlPlaneTopology: SingleReplica
     volumes.kubernetes.io/controller-managed-attach-detach: 'true'
