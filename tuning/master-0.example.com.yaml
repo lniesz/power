@@ -1,0 +1,18 @@
+kind: Node
+apiVersion: v1
+metadata:
+  name: master-0.example.com
+  labels:
+    beta.kubernetes.io/arch: ppc64le
+    beta.kubernetes.io/os: linux
+    kubernetes.io/arch: ppc64le
+    kubernetes.io/hostname: master-0.example.com
+    kubernetes.io/os: linux
+    node-role.kubernetes.io/master: ''
+    node-role.kubernetes.io/worker: ''
+    node.openshift.io/os_id: rhcos
+    SMT: '4'
+  annotations:
+    machineconfiguration.openshift.io/controlPlaneTopology: SingleReplica
+    volumes.kubernetes.io/controller-managed-attach-detach: 'true'
+spec: {}
