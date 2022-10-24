@@ -1,12 +1,12 @@
 kind: Node
 apiVersion: v1
 metadata:
-  name: master-0.tz-203246.cecc.ihost.com
+  name: master-0.example.com
   labels:
     beta.kubernetes.io/arch: ppc64le
     beta.kubernetes.io/os: linux
     kubernetes.io/arch: ppc64le
-    kubernetes.io/hostname: master-0.tz-203246.cecc.ihost.com
+    kubernetes.io/hostname: master-0.example.com
     kubernetes.io/os: linux
     node-role.kubernetes.io/master: ''
     node-role.kubernetes.io/worker: ''
